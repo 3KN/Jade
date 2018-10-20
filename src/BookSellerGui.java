@@ -36,7 +36,7 @@ public class BookSellerGui extends JFrame {
                     priceField.setText("");
                 }
                 catch (Exception e) {
-                    JOptionPane.showMessageDialog(BookSellerGui.this, "Invalid values. "+e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+                    JOptionPane.showMessageDialog(BookSellerGui.this, "Invalid values . "+e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
                 }
             }
         } );
